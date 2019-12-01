@@ -26,8 +26,7 @@ while True:
             out.write(content)
             out.close()
 
-            print(userInfo)
             userName = userInfo[0]['first_name']
             lastName = userInfo[0]['last_name']
 
-            #vkapi.sendMessage(peer_id, 'Проверочка')
+            vkapi.sendMessage(peer_id, 'Проверочка')
